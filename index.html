@@ -4,8 +4,218 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT assiment 2</title>
+    <style>
+       
+       *{
+        margin: 0%;
+        padding: 0%;
+       
+       }
+
+       body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+        overflow-x: hidden;
+       }
+
+       header{
+        background-color: black;
+        color: wheat;
+        padding: 10px 0;
+        text-align: center;
+       }
+
+       .logo img {
+        max-width: 20%;
+       }
+       .header-text h1 {
+        margin: 0;
+       }
+
+       .header-text p {
+        margin: 5px 0;
+        font-size: 0.9em;
+       }
+
+
+
+
+       .container{
+        margin: 50px auto;
+        background-color: black;
+        height: auto;
+        min-height: 40vh;
+        display: flex;
+        
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        border-radius: 15px;
+       
+
+
+
+       }
+
+
+       .assiment-box {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        transition: width 1s ease;
+     
+       }
+
+       .assiment-box:hover {
+        width: 200px;
+       }
+
+       .assiment-index {
+        font-size: 40px;
+       }
+
+       .assiment-name {
+            opacity: 0;
+       }
+
+
+       .assiment-box:hover .assiment-name {
+        opacity: 1;
+       }
+
+
+       .assiment-box:hover .assiment-index {
+        font-size: 32px;
+       }
+
+     
+
+       .assiment-name  a {
+        text-decoration: none;
+       }
+
+       footer {
+        text-align: center;
+        background-color: gray;
+        color: white;
+        padding: 10px 0;
+        margin-top: 20px;
+       }
+
+
+
+
+    </style>
+
+
+
+
+
 </head>
 <body>
+    <header>
+        <div class="logo">
+            <img src="/images/image.png" alt="mylogo">
+            <div class="header-text">
+                <h1>Internet Technology Assiment- 2</h1>
+                <p>Maleesha Madushanka Abesinha - ID : 200301001486</p>
+
+            </div>
+
+
+
+        </div>
+
+       
     
+        
+
+    </header>
+    
+
+    
+    <div class="container">
+        
+      
+
+        <div class="assiment-box">
+            <span class="assiment-index">1</span>
+            <span class="assiment-name">
+        
+                <a href="/pages/Case-1.html">Case-1</a>
+
+                    
+                
+               
+
+            </span>
+        </div>
+
+        <div class="assiment-box">
+            <span class="assiment-index">2</span>
+            <span class="assiment-name">
+            
+                <a href="/pages/Case-2.html">Case-2</a>
+
+
+            </span>
+
+        </div>
+
+        <div class="assiment-box">
+            <span class="assiment-index">3</span>
+            <span class="assiment-name">
+                <a href="/pages/Case-3.html">Case-3</a>
+            </span>
+
+        </div>
+        <div class="assiment-box">
+            <span class="assiment-index">4</span>
+            <span class="assiment-name">
+                <a href="/pages/Case-4.html">Case-4</a>
+            </span>
+
+        </div>
+        <div class="assiment-box">
+            <span class="assiment-index">5</span>
+            <span class="assiment-name">
+                <a href="/pages/Case-5.html">Case-5</a>
+            </span>
+
+        </div>
+        <div class="assiment-box">
+            <span class="assiment-index">6</span>
+            <span class="assiment-name">
+                <a href="/pages/Case-6.html">Case-6</a>
+            </span>
+
+        </div>
+
+
+    </div>
+
+
+    <footer>
+        <p>&copy; 2024 .Maleesha Madushanka Abesinha All Rights Reserved</p>
+        
+
+    </footer>
+
+
+
+   
+
+   
+
+   
 </body>
 </html>
