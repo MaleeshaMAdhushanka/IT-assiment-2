@@ -17,6 +17,7 @@
         line-height: 1.6;
         background-color: #f4f4f4;
         overflow-x: hidden;
+        
        }
 
        header{
@@ -113,6 +114,129 @@
 
 
 
+       body > .container-dots {
+            margin: 15px auto;
+            background-color: rgb(255, 47, 203);
+            height: 50vh;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+
+        
+
+          
+        }
+
+
+
+      
+       .container-dots {
+            display: flex;
+            gap: 12px;
+           
+         }
+
+
+         .dot {
+            width: 60px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            border-radius: 10%;
+            animation: bounce 2s ease-in-out infinite;
+            /* justify-content: center;
+            align-items: center; */
+             padding-top: 12px;
+            text-align: center;
+           
+        }
+
+
+        @keyframes bounce{
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                 transform: translateY(-50px);
+            }
+            100% {
+                transform: translateY(0);
+
+            }
+
+        }
+
+
+        #dot-1 {
+            animation-delay: 0s;
+            background-color: red;
+        }
+
+        #dot-2 {
+            animation-delay: 0.3s;
+            background-color: orange;
+        }
+        #dot-3 {
+            animation-delay: 0.6s;
+            background-color: yellow;
+        }
+
+        #dot-4 {
+            animation-delay: 0.9s;
+            background-color: blue;
+        }
+
+        #dot-5 {
+            animation-delay: 1.2s;
+            background-color: indigo;
+        }
+
+        #dot-6 {
+            animation-delay: 1.4s;
+            background-color: violet;
+        }
+        #dot-7 {
+            animation-delay: 1.6s;
+            background-color: red;
+        }
+        #dot-8 {
+            animation-delay: 1.8s;
+            background-color: orange;
+
+        }
+
+        #dot-9 {
+            animation-delay: 2s;
+            background-color: yellow;
+        }
+        #dot-10 {
+            animation-delay: 2.2s;
+            background-color: blue;
+            
+        }
+
+        #dot-11{
+            animation-delay: 2.4s;
+            background-color: indigo;
+           
+        }
+        #dot-12{
+            animation-delay: 2.6s;
+            background-color: violet;
+           
+        }
+        #dot-13{
+            animation-delay: 2.8s;
+            background-color: red;
+           
+        }
+
+
+
+
+
 
     </style>
 
@@ -140,6 +264,30 @@
         
 
     </header>
+
+    <div class="container-dots">
+        <div class="dot" id="dot-1">A</div>
+        <div class="dot" id="dot-2">S</div>
+        <div class="dot" id="dot-3">S</div>
+        <div class="dot" id="dot-4">I</div>
+        <div class="dot" id="dot-5">M</div>
+        <div class="dot" id="dot-6">E</div>
+        <div class="dot" id="dot-7">N</div>
+        <div class="dot" id="dot-8">T</div>
+        <div class="dot" id="dot-9">C</div>
+        <div class="dot" id="dot-10">A</div>
+        <div class="dot" id="dot-11">S</div>
+        <div class="dot" id="dot-12">E</div>
+        <div class="dot" id="dot-13">S</div>
+
+
+
+
+
+    </div>
+
+
+
     
 
     
