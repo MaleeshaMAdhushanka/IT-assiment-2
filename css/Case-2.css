@@ -25,6 +25,7 @@ body {
 
 #circle-1 {
     border: 20px solid #fff;
+    cursor: pointer;
     border-top-color: red;
     z-index: 1;
     
@@ -39,12 +40,14 @@ body {
 }
 
 #circle-1:hover {
-    animation: spin 1.3s linear 1s;
-    cursor: pointer;
+    /* animation: spin 1.3s linear 1s;
+    cursor: pointer; */
+    transform: rotate(360deg);
+    transition: transform 1s ease-in-out 1ms;
 }
 
 
-@keyframes spin {
+/* @keyframes spin {
     0%{
         transform: rotate(0deg);
 
@@ -53,4 +56,4 @@ body {
     100%{
         transform: rotate(360deg);
     }
-}
+} */
